@@ -1,5 +1,12 @@
 /*  global  */
 
+@font-face {
+    font-family: 'GrandHotel';
+    src: url('../fonts/GrandHotel-Regular.otf');
+    font-family: 'Lato';
+    src: url('../fonts/Lato.ttf');
+}
+
 html, body{
 	margin:0;
 	padding: 0;
