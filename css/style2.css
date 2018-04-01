@@ -44,12 +44,27 @@ html, body{
 	font-family: 'Grand Hotel';
 }
 
+#button,button{
+	background-color:#f34e4e; 
+	color: #ffffff;
+}
+
+#button:hover,button:hover{
+	text-decoration: underline;
+}
 
 .col-md-2{
 	margin:0px;
 	padding:0px;
 }
 
+.width100{
+	width:100%;
+}
+
+.table-hover > tbody > tr:hover{
+	background-color:#f34e4e;
+}
 
 
 
@@ -74,16 +89,6 @@ html, body{
 	border-radius: 10px;
 }
 
-
-#button{
-	background-color:#f34e4e; 
-	color: #ffffff;
-}
-
-#button:hover{
-	text-decoration: underline;
-}
-
 @media only screen and (max-width:991px){
 	#admin-login-form{
 		width:80%;
@@ -98,6 +103,7 @@ html, body{
 
 .input-group{
 	margin:0px;
+	width:100%;
 }
 
 form .form-group{
